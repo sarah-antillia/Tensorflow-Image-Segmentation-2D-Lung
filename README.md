@@ -182,7 +182,7 @@ blur      = False
 blur_size = (3,3)
 </pre>
 
-The training process has just been stopped at epoch 97 by an early-stopping callback as shown below.<br><br>
+The training process has just been stopped at epoch 61 by an early-stopping callback as shown below.<br><br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/2D-Lung/asset/train_console_output_at_epoch_61.png" width="720" height="auto"><br>
 <br>
 <br>
