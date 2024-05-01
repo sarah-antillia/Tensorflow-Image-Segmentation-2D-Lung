@@ -41,6 +41,11 @@ you may try other Tensorflow UNet Models:<br>
 <br>
 
 <h3>1. Dataset Citation</h3>
+The dataset used here has been taken from the following kaggle web-site<br>
+<b>Finding and Measuring Lungs in CT Data</b><br>
+A collection of CT images, manually segmented lungs and measurements in 2/3D
+<br>
+
 <b>About Dataset</b><br>
 <b>Context</b><br>
 <pre>
