@@ -45,6 +45,7 @@ The dataset used here has been taken from the following kaggle web-site<br>
 <b>Finding and Measuring Lungs in CT Data</b><br>
 A collection of CT images, manually segmented lungs and measurements in 2/3D
 <br>
+<pre>https://www.kaggle.com/datasets/kmader/finding-lungs-in-ct-data/data</pre><br>
 
 <b>About Dataset</b><br>
 <b>Context</b><br>
