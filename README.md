@@ -26,7 +26,6 @@ Actual Image Segmentation Sample for an image.<br>
 </table>
 
 <hr>
-<br>
 In this experiment, we have used the simple UNet Model 
 <a href="./src/TensorflowUNet.py">TensorflowSlightlyFlexibleUNet</a> for this 2D Lung Segmentation.<br>
 As shown in <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API">Tensorflow-Image-Segmentation-API</a>.
@@ -42,17 +41,25 @@ you may try other Tensorflow UNet Models:<br>
 <br>
 
 <h3>1. Dataset Citation</h3>
-The original dataset used here has been taken from the following web-site<br>
-<b>ORCA: ORal Cancer Annotated dataset</b><br>
-<pre>https://sites.google.com/unibas.it/orca/home</pre>
-
+<b>About Dataset</b><br>
+<b>Context</b><br>
 <pre>
-If you use the ORCA data, please cite:
-F.  Martino,  D.D.  Bloisi,  A.  Pennisi,  M. Fawakherji,  G. Ilardi,  D. Russo,  D. Nardi,  S. Staibano, F. Merolla
-"Deep Learning-based Pixel-wise Lesion Segmentation on Oral Squamous Cell Carcinoma Images"
-Applied Sciences: 2020, 10(22), 8285; https://doi.org/10.3390/app10228285  [PDF]
+Competitions like LUNA (http://luna16.grand-challenge.org) and the Kaggle Data Science Bowl 2017 
+(https://www.kaggle.com/c/data-science-bowl-2017) involve processing and trying to find lesions 
+in CT images of the lungs. In order to find disease in these images well, it is important to first find the lungs well. 
+This dataset is a collection of 2D and 3D images with manually segmented lungs.
 </pre>
-<br>
+<b>Challenge</b><br>
+<pre>
+Come up with an algorithm for accurately segmenting lungs and measuring important clinical parameters 
+(lung volume, PD, etc)
+</pre>
+<b>Percentile Density (PD)</b><br>
+<pre>
+The PD is the density (in Hounsfield units) the given percentile of pixels fall below in the image. 
+The table includes 5 and 95% for reference. For smokers this value is often high indicating the build 
+up of other things in the lungs.
+</pre>
 
 <br>
 
